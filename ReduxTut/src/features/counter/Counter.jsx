@@ -7,7 +7,7 @@ const Counter = () => {
     const dispatch = useDispatch();
   return (
    <section>
-    p<p>{count}</p>
+    <p>{count}</p>
     <div>
         <button onClick={() => dispatch(increment())}>+</button>
         <button onClick={() => dispatch(decrement())}>-</button>
